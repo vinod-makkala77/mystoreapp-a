@@ -1,0 +1,12 @@
+.prodcss{
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+}
+.prodcss1{
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+    width: 400px;
+    border-radius: 10px;
+}
