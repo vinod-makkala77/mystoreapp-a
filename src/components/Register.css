@@ -1,0 +1,24 @@
+.App-row{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px;
+    
+}
+.App-box{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: blue;
+}
+.App-box2{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: tomato;
+    border: solid black 1px;
+    border-radius: 5px;
+}

@@ -1,14 +1,14 @@
-import './Head.css'
-export default function Header1() {
+import "./Header.css";
+import { Link } from "react-router-dom";
+export default function Header() {
   return (
-    <div>
-    <div className="samp">
-      
-      <div> <h1>My React Store</h1></div>
-      <hr></hr>
-      <div>Menu</div>
-    </div>
-    
+    <div className="App-Header-Row">
+      <h1>My React Store</h1>
+      <div >
+        <Link to="products">Home</Link>
+        <Link to="cart">Cart</Link>
+        <Link to="login">Login</Link>
+      </div>
     </div>
   );
 }

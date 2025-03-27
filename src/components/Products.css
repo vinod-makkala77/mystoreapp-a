@@ -1,12 +1,12 @@
-.prodcss{
+.App-Products-Row{
     display: flex;
-   justify-content: center;
+    justify-content: center;
     flex-wrap: wrap;
 }
-.prodcss1{
-    border: 1px solid gray;
+.App-Products-Box{
     margin: 5px;
     padding: 5px;
-    width: 400px;
+    border: 1px solid gray;
     border-radius: 10px;
+    width: 300px;
 }
